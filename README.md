@@ -1,5 +1,10 @@
 # getAjob
-delivery game 
+## delivery game 
 
-![Alt Text](./resource/peek.gif)
+##### day1
 
+<img src="./resource/peek.gif" alt="Alt Text" style="zoom: 50%;" />
+
+##### day2
+
+<img src="./resource/day2.gif" alt="Alt Text" style="zoom: 50%;" />
