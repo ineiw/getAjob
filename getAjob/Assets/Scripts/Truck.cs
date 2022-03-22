@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Truck : MonoBehaviour
 {
+    Pool pool;
     public WheelCollider [] wheelCols = new WheelCollider [4];
     public Transform [] wheelMeshes = new Transform [4];
     Rigidbody rigi;
@@ -24,6 +25,14 @@ public class Truck : MonoBehaviour
             jump();
         steering(hor);
         setWheelsPos();
+    }
+    public void Init(Pool _pool){
+        pool = _pool;
+    }
+    GameObject getPoolObj(){
+        GameObject road = null;
+        road = pool.Dequeue();
+        return road;
     }
     void steering(float hor){
         for (int i=2;i<4;i++){

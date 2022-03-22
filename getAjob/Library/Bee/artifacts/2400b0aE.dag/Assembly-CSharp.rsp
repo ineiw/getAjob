@@ -347,6 +347,7 @@
 "Assets/Scripts/Camera.cs"
 "Assets/Scripts/CheckJump.cs"
 "Assets/Scripts/GenRoad.cs"
+"Assets/Scripts/Pool.cs"
 "Assets/Scripts/Truck.cs"
 -langversion:9.0
 
